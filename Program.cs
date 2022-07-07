@@ -23,7 +23,7 @@ do
         Console.WriteLine("Salt         [ SHA512 ]    : {0}", hashAndSalt512.saltString);
         Console.WriteLine("HashWithSalt [ SHA512 ]    : {0}", hashAndSalt512.hashWithSaltResult);
     }
-    Console.WriteLine("\nIf you want to continue the press [1]...");
+    Console.Write("\nIf you want to continue the press [1]... : ");
     choice = int.Parse(Console.ReadLine());
 } while (choice == 1);
 
